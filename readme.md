@@ -1,12 +1,12 @@
-# 🚀 MacQRScanner - 极简高效的桌面二维码扫描工具
+# 🚀 MacQRScanner - 极简高效的桌面二维码/条形码扫描工具
 
 ![Screenshot](demo-screenshot.png) <!-- 可替换为实际截图 -->
 
-**一键捕捉屏幕任意区域的二维码** | **100%本地处理** | **零数据收集**
+**系统截图捕捉屏幕任意区域的二维码/条形码** | **100%本地处理** | **零数据收集**
 
 ## 🌟 核心功能
 
-- 🎯 精准识别屏幕任意区域的二维码
+- 🎯 精准识别屏幕任意区域的二维码/条形码
 - 📧 智能解析多种格式：
   - 电子邮件（MATMSG/mailto格式）
   - 网页链接（HTTP/HTTPS）
@@ -17,10 +17,12 @@
 
 ## 📥 安装指南
 
-1. 从 [Release页面](https://github.com/your-repo/releases) 下载最新版本
+1. 从 [Release页面](https://github.com/ShuaiweiYu/MacQRscanner/releases) 下载最新版本
 2. 将应用拖拽到「应用程序」文件夹
 3. 首次运行时授予必要权限：
    - **屏幕录制权限**：系统偏好设置 → 安全性与隐私 → 隐私 → 屏幕录制
+4. **由于本应用未经过Apple Developer认证，您需要手动信任该应用**：
+   - **系统设置** → **隐私与安全性** → **允许来自未认证开发者的应用**，然后手动信任 MacQRScanner。
 
 ## 🎮 使用方式
 
@@ -59,7 +61,10 @@
 欢迎通过Issue提交建议或Pull Request参与开发！  
 项目采用 [MIT License](LICENSE)
 
----
+## ☕ 支持开发
 
-**立即释放您的屏幕识别潜力！**  
-[下载最新版本](#) | [查看完整文档](#) | [报告问题](#)
+如果您觉得本应用不错，欢迎捐赠支持！
+
+[![](https://www.buymeacoffee.com/assets/img/custom_images/yellow_img.png)](https://www.buymeacoffee.com/shuaiwei.yu)
+
+---
