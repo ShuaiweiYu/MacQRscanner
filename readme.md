@@ -1,6 +1,8 @@
-# 🚀 MacQRScanner - 极简高效的桌面二维码/条形码扫描工具
+# 🚀 MacQRScanner - 极简高效的桌面二维码/条形码扫描工具 | Simple & Efficient Desktop QR/Bar Code Scanner
 
-![Screenshot](demo-screenshot.png) <!-- 可替换为实际截图 -->
+[View Introduction in English](readme/readme_en.md)
+
+![Screenshot](readme/demo.gif)
 
 **系统截图捕捉屏幕任意区域的二维码/条形码** | **100%本地处理** | **零数据收集**
 
@@ -19,10 +21,10 @@
 
 1. 从 [Release页面](https://github.com/ShuaiweiYu/MacQRscanner/releases) 下载最新版本
 2. 将应用拖拽到「应用程序」文件夹
+    - **由于本应用未经过Apple Developer认证，您需要手动信任该应用**：
+    - **系统设置** → **隐私与安全性** → **允许来自未认证开发者的应用** → **仍要打开MacQRScanner**。
 3. 首次运行时授予必要权限：
    - **屏幕录制权限**：系统偏好设置 → 安全性与隐私 → 隐私 → 屏幕录制
-4. **由于本应用未经过Apple Developer认证，您需要手动信任该应用**：
-   - **系统设置** → **隐私与安全性** → **允许来自未认证开发者的应用**，然后手动信任 MacQRScanner。
 
 ## 🎮 使用方式
 
@@ -42,28 +44,20 @@
 > 
 > - 📷 **仅用于即时截图**，不会保存任何屏幕内容
 > - ☁️ **永不连接任何网络服务**
-> - 🔐 **所有数据处理均在本地完成**
-> - 🗑️ 每次扫描后自动删除临时文件
-> - 📡 无任何后台进程或数据收集行为
+> - 🔐 所有数据处理均在**本地完成**
+> - 🗑️ 每次扫描后自动**删除临时文件**
+> - 📡 **无任何后台进程或数据收集行为**
 
 您的隐私安全是我们的最高优先级，本应用遵循严格的数据处理原则：**所见即所得，用完即销毁**。
 
-## ⚙️ 技术亮点
-
-- 基于Apple Vision框架的先进识别引擎
-- SwiftUI构建的现代化界面
-- 内存安全的数据处理流程
-- 系统级快捷键集成
-- 自动垃圾清理机制
-
 ## 🤝 参与贡献
 
-欢迎通过Issue提交建议或Pull Request参与开发！  
+本项目为开源项目，欢迎通过Issue提交建议或Pull Request参与开发！  
 项目采用 [MIT License](LICENSE)
 
 ## ☕ 支持开发
 
-如果您觉得本应用不错，欢迎捐赠支持！
+如果您觉得本应用不错，欢迎捐赠支持！（捐赠所得会继续用于后续开发，例如：Apple Developer计划的年费）
 
 [![](https://www.buymeacoffee.com/assets/img/custom_images/yellow_img.png)](https://www.buymeacoffee.com/shuaiwei.yu)
 

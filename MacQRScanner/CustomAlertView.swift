@@ -188,7 +188,7 @@ struct CustomAlertView: View {
         let password: String
 
         var body: some View {
-            VStack(spacing: 12) {
+            VStack(spacing: 8) {
                 CopyTextButton(displayText: String(localized: "result_copy_password"), content: password)
 
                 Button(action: { openWiFiSettings() }) {

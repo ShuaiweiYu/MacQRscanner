@@ -1,62 +1,60 @@
-# 🚀 MacQRScanner - Minimal & Efficient Desktop QR Code Scanner
+# 🚀 MacQRScanner - Minimalist & Efficient Desktop QR/Bar Code Scanner
 
-![Screenshot](demo-screenshot.png) <!-- Replace with an actual screenshot -->
+![Screenshot](demo.gif)
 
-**Capture QR codes from any part of your screen with a single click** | **100% Local Processing** | **Zero Data Collection**
+**Capture QR/Bar codes from any screen area** | **100% Local Processing** | **No Data Collection**
 
-## 🌟 Key Features
+## 🌟 Core Features
 
-- 🎯 Accurately recognize QR codes from any screen region
-- 📧 Smartly parse multiple formats:
-  - Email (MATMSG/mailto format)
-  - Web links (HTTP/HTTPS)
-  - WiFi connection details
-  - Plain text content
-- 🛡️ Secure, fully offline scanning
-- 📋 One-click copying of scan results
+- 🎯 Accurately recognize QR/bar codes from any screen area
+- 📧 Smart parsing of multiple formats:
+    - Email (MATMSG/mailto format)
+    - Web links (HTTP/HTTPS)
+    - WiFi connection info
+    - Plain text content
+- 🛡️ Fully offline secure scanning
+- 📋 One-click copy for parsed results
 
 ## 📥 Installation Guide
 
-1. Download the latest version from the [Releases page](https://github.com/your-repo/releases)
-2. Drag and drop the app into the "Applications" folder
-3. Grant necessary permissions on first launch:
-   - **Screen Recording Permission**: System Preferences → Security & Privacy → Privacy → Screen Recording
+1. Download latest version from [Releases page](https://github.com/ShuaiweiYu/MacQRscanner/releases)
+2. Drag app to "Applications" folder
+    - **Since the app is not Apple Developer certified, manual trust required**:
+    - **System Settings** → **Privacy & Security** → **Allow apps from unidentified developers** → **Open MacQRScanner anyway**
+3. Grant required permissions on first launch:
+    - **Screen Recording Permission**: System Preferences → Security & Privacy → Privacy → Screen Recording
 
-## 🎮 How to Use
+## 🎮 Usage
 
-1. Launch from the menu bar icon
-2. Select the screen area containing a QR code
-3. Instantly retrieve scan results:
-   - Web links: Open directly in a browser
-   - Email addresses: Create a new email instantly
-   - WiFi details: Copy password with one click
-   - Plain text: Copy to clipboard immediately
+1. Launch via menu bar icon
+2. Select screen area containing QR code
+3. Get instant results:
+    - Web links: Direct access
+    - Email addresses: Quick email creation
+    - WiFi info: One-click password copy
+    - Plain text: Immediate clipboard copy
 
 ## 🔒 Privacy & Security Commitment
 
 ⚠️ **Important Notice** ⚠️
 
-> To provide QR code scanning functionality, this app requires **Screen Recording permission**. We solemnly promise:
+> To provide QR scanning service, this app requires **Screen Recording Permission**. We solemnly promise:
 >
-> - 📷 **Used only for instant screenshots**, without storing any screen content
-> - ☁️ **Never connects to any online services**
-> - 🔐 **All data processing is performed locally**
-> - 🗑️ **Temporary files are automatically deleted after each scan**
+> - 📷 **Used for instant screenshots only**, no screen content storage
+> - ☁️ **Never connects to any web services**
+> - 🔐 All data processing done **locally**
+> - 🗑️ Automatic **temporary file deletion** after each scan
 > - 📡 **No background processes or data collection**
 
-Your privacy and security are our top priorities. This app follows a strict data-handling principle: **What you see is what you get, and everything is discarded after use.**
+Your privacy is our top priority. This app follows strict data handling principles: **What You See Is What We Get, Destroy After Use**.
 
-## ⚙️ Technical Highlights
+## 🤝 Contribution
 
-- Advanced recognition powered by Apple’s Vision framework
-- Modern UI built with SwiftUI
-- Memory-safe data handling
-- System-wide keyboard shortcuts
-- Automatic cleanup mechanisms
+This open-source project welcomes suggestions via Issues and contributions via Pull Requests!  
+Licensed under [MIT License](LICENSE)
 
-## 🤝 Contributing
+## ☕ Support Development
 
-Feel free to submit issues, suggestions, or pull requests!  
-This project is licensed under the [MIT License](LICENSE).
+If you find this app useful, consider supporting development (All donations will fund future development, e.g., Apple Developer Program annual fee)
 
----
+[![](https://www.buymeacoffee.com/assets/img/custom_images/yellow_img.png)](https://www.buymeacoffee.com/shuaiwei.yu)
